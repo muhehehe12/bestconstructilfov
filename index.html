@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constantin Construct | Case la Roșu și la Cheie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-ro">
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <div class="loader-circle"></div>
+            <div class="loader-text">
+                <span class="ro">Se încarcă...</span>
+                <span class="en">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Contact Trigger -->
+    <a href="tel:+40734172380" class="phone-sticky" aria-label="Call Now">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M20 22.621l-3.521-6.795c-.008-.004-1.974.97-2.064 1.011-2.24 1.086-6.753-7.859-4.162-9.243.019-.01 1.983-.984 1.983-.984l-3.52-6.795s-1.951.971-2.01.1c-1.84 2.825.215 11.233 6.007 17.025 5.792 5.792 14.2 7.848 17.026 6.007.03-.021.972-2.011.972-2.011z"/>
+        </svg>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="site-logo">CONSTANTIN <span class="accent-color">CONSTRUCT</span></a>
+            
+            <nav class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active"><span class="ro">Acasă</span><span class="en">Home</span></a></li>
+                    <li><a href="#offers" class="nav-link"><span class="ro">Prețuri</span><span class="en">Pricing</span></a></li>
+                    <li><a href="#specializations" class="nav-link"><span class="ro">Specializări</span><span class="en">Expertise</span></a></li>
+                    <li><a href="#guarantees" class="nav-link"><span class="ro">Garanții</span><span class="en">Guarantees</span></a></li>
+                    <li><a href="#contact" class="nav-link"><span class="ro">Contact</span><span class="en">Contact</span></a></li>
+                </ul>
+
+                <div class="language-switcher">
+                    <button id="lang-ro-btn" class="lang-btn active">RO</button>
+                    <button id="lang-en-btn" class="lang-btn">EN</button>
+                </div>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content-box animate-fade-in-left">
+                <span class="hero-tagline">
+                    <span class="ro">Construcții Profesionale de la A la Z</span>
+                    <span class="en">Professional Construction Services</span>
+                </span>
+                <h1 class="hero-title">
+                    <span class="ro">Construim Casa Ta Zero Avans, Plată pe Etape</span>
+                    <span class="en">We Build Your Home Zero Advance, Stage Payments</span>
+                </h1>
+                <p class="hero-description">
+                    <span class="ro">Case cu etaj de la 250€/mp și cu mansardă de la 220€/mp. Execuție rapidă, materiale certificate și cartea tehnică a imobilului inclusă complet.</span>
+                    <span class="en">Two-story houses from €250/sqm and mansard houses from €220/sqm. Fast execution, certified materials, and full property building book provided.</span>
+                </p>
+                <div class="hero-actions">
+                    <a href="tel:+40734172380" class="btn btn-primary">
+                        <span class="ro">Contact: 0734 172 380</span>
+                        <span class="en">Call: +40 734 172 380</span>
+                    </a>
+                    <a href="#offers" class="btn btn-outline">
+                        <span class="ro">Vezi Ofertele</span>
+                        <span class="en">View Offers</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages Section -->
+    <section id="offers" class="offers-section scroll-reveal">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">
+                    <span class="ro">Configurații și Pachete de Prețuri</span>
+                    <span class="en">Configurations & Pricing Packages</span>
+                </h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-price">25.000 €</div>
+                    <h3 class="offer-title"><span class="ro">Casă la Cheie (100 mp)</span><span class="en">Turnkey House (100 sqm)</span></h3>
+                    <p class="offer-desc"><span class="ro">Locuință complet finisată, gata de mutat. Include finisaje, instalații electrice, sanitare și termice cu materiale de calitate superioară conform proiectului dumneavoastră.</span><span class="en">Fully finished home, ready to move in. Includes interior finishes, electrical, plumbing, and heating systems using premium project-compliant materials.</span></p>
+                </div>
+                <div class="offer-card popular">
+                    <div class="popular-badge"><span class="ro">Recomandat</span><span class="en">Recommended</span></div>
+                    <div class="offer-price">40.000 €</div>
+                    <h3 class="offer-title"><span class="ro">Casă cu Mansardă (180 mp)</span><span class="en">Mansard House (180 sqm)</span></h3>
+                    <p class="offer-desc"><span class="ro">Spațiu generos optimizat inteligent. Materiale premium și manoperă incluse de la fundație până la acoperiș și finisaje complete. Fără costuri ascunse.</span><span class="en">Generous intelligently optimized space. Premium materials and professional labor included from foundation to roof structure and final design layout. No hidden fees.</span></p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-price">50 - 75 €<span class="unit">/mp</span></div>
+                    <h3 class="offer-title"><span class="ro">Manoperă la Roșu</span><span class="en">Gray Shell Labor</span></h3>
+                    <p class="offer-desc"><span class="ro">Execuție impecabilă a structurii de rezistență, zidăriei și acoperișului fără materiale incluse. Prețul variază în funcție de complexitatea și cantitățile proiectului ales.</span><span class="en">Impeccable execution of the concrete load-bearing structure, masonry, and basic roofing without structural materials. Price scales cleanly with project complexity layers.</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specializations Checklist Section -->
+    <section id="specializations" class="spec-section">
+        <div class="container">
+            <div class="section-title-wrapper scroll-reveal">
+                <h2 class="section-title">
+                    <span class="ro">Specializări și Servicii Executate</span>
+                    <span class="en">Specializations & Executed Works</span>
+                </h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="spec-grid">
+                <div class="spec-column scroll-reveal">
+                    <h3><span class="ro">Structură și Zidărie</span><span class="en">Structure & Masonry</span></h3>
+                    <ul class="spec-list">
+                        <li>Fundatții izolate, termo și hidroizolate</li>
+                        <li>Plăci de beton, stâlpi și grinzi structurale</li>
+                        <li>Zidărie din cărămidă sau BCA la alegere</li>
+                        <li>Săpături mecanizate și turnări automatizate</li>
+                        <li>Acoperișuri complete și mansardări</li>
+                    </ul>
+                </div>
+                <div class="spec-column scroll-reveal">
+                    <h3><span class="ro">Instalații și Finisaje</span><span class="en">Systems & Finishes</span></h3>
+                    <ul class="spec-list">
+                        <li>Instalații sanitare, electrice, gaze și termice</li>
+                        <li>Sape mecanizate și tencuieli interioare/exterioare</li>
+                        <li>Izolații cu vată bazaltică, polistiren sau spumă</li>
+                        <li>Tencuieli decorative și amenajări exterioare</li>
+                        <li>Montaj gresie, faianță, parchet și uși interioare</li>
+                    </ul>
+                </div>
+                <div class="spec-column scroll-reveal">
+                    <h3><span class="ro">Anexe și Utilități</span><span class="en">Annexes & Utilities</span></h3>
+                    <ul class="spec-list">
+                        <li>Fose septice profesionale</li>
+                        <li>Cămine de apă și puțuri de apă</li>
+                        <li>Construcție garduri rezidențiale</li>
+                        <li>Foișoare și garaje auto din lemn sau zidărie</li>
+                        <li>Demolări și supraetajări clădiri</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Guarantees & Methodology Section -->
+    <section id="guarantees" class="guarantees-section">
+        <div class="container">
+            <div class="guarantees-wrapper">
+                <div class="guarantees-content scroll-reveal">
+                    <h2>
+                        <span class="ro">Transparență Totală. Fără Avans.</span>
+                        <span class="en">Total Transparency. No Advance Payment.</span>
+                    </h2>
+                    <div class="accent-line left"></div>
+                    <p>
+                        <span class="ro">Lucrările noastre se execută cu rigurozitate tehnică maximă, fără a solicita avans financiar. Plățile sunt eșalonate și se efectuează exclusiv după controlul tehnologic al etapelor finalizate cu succes. La recepție, predăm Cartea Tehnică a Imobilului împreună cu toate facturile, chitanțele, avizele și probele de laborator pentru materialele utilizate (oțel, cărămidă, beton).</span>
+                        <span class="en">Our structural projects are executed with absolute technical rigor under a zero upfront payment policy. Financial transactions are scheduled symmetrically across milestones after checking construction phase quality metrics. At handover, we provide the complete Technical Building Book alongside laboratory certificates, material approvals, invoices, and quality receipts.</span>
+                    </p>
+                    <div class="materials-tags">
+                        <span class="tag">Porotherm</span>
+                        <span class="tag">Brikston</span>
+                        <span class="tag">Soceram</span>
+                        <span class="tag">Durotherm</span>
+                        <span class="tag">BCA</span>
+                        <span class="tag">Beton C20/25 (B350)</span>
+                    </div>
+                </div>
+                <div class="guarantees-image-box scroll-reveal">
+                    <div class="badge-box">
+                        <h3>100%</h3>
+                        <p><span class="ro">Conform Proiect</span><span class="en">Project Compliant</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Lead Acquisition Form -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info scroll-reveal">
+                    <h2>
+                        <span class="ro">Să începem proiectul dumneavoastră</span>
+                        <span class="en">Let's start your custom project</span>
+                    </h2>
+                    <p>
+                        <span class="ro">Aveți deja un proiect gata sau aveți nevoie de asistență pentru proiectare și documentația de autorizare? Suntem stabiliți în 1 Decembrie, Ilfov și acoperim zona București-Ilfov. Contactați-ne acum.</span>
+                        <span class="en">Do you already have a finalized architectural blueprint or require advanced engineering blueprints and local authorization paperwork? Based in 1 Decembrie, Ilfov, we fully cover the Bucharest-Ilfov sector.</span>
+                    </p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label"><span class="ro">Telefon Manager</span><span class="en">Manager Hotline</span></span>
+                            <a href="tel:+40734172380" class="info-value">0734 172 380</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><span class="ro">Acoperire Regională</span><span class="en">Geographic Reach</span></span>
+                            <span class="info-value">București - Ilfov (1 Decembrie)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form scroll-reveal">
+                    <form id="project-form" onsubmit="event.preventDefault(); alert('Solicitarea a fost înregistrată! Constantin vă va contacta în cel mai scurt timp. / Request recorded! Constantin will contact you shortly.');">
+                        <div class="form-group">
+                            <label for="client-name"><span class="ro">Nume Complet</span><span class="en">Full Name</span></label>
+                            <input type="text" id="client-name" required placeholder="Ex. Mihai Popescu">
+                        </div>
+                        <div class="form-group">
+                            <label for="client-phone"><span class="ro">Număr Telefon</span><span class="en">Phone Number</span></label>
+                            <input type="tel" id="client-phone" required placeholder="Ex. 07xx xxx xxx">
+                        </div>
+                        <div class="form-group">
+                            <label for="project-type"><span class="ro">Tipul Lucrării Solicitate</span><span class="en">Requested Work Type</span></label>
+                            <select id="project-type">
+                                <option value="cheie"><span class="ro">Casă la Cheie</span><span class="en">Turnkey Structure</span></option>
+                                <option value="rosu"><span class="ro">Construcție la Roșu</span><span class="en">Gray Shell Structure</span></option>
+                                <option value="mansarda"><span class="ro">Mansardare / Supraetajare</span><span class="en">Mansard / Loft Extension</span></option>
+                                <option value="anexe"><span class="ro">Fose / Garduri / Anexe</span><span class="en">Septic / Fences / Annexes</span></option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span class="ro">Trimite Detaliile Proiectului</span>
+                            <span class="en">Submit Project Specifications</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Constantin Construct SRL. <span class="ro">Toate drepturile rezervate. Siguranță structurală fără compromis.</span><span class="en">All rights reserved. Uncompromised structural safety frameworks.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
